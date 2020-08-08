@@ -50,8 +50,11 @@ $ gcloud container clusters create vault \
 ```
 
 ## Create Certificates
+use the git repo https://github.com/wasanthag/generate-self-sign-cert to create CA cert, server cert and a private key. Copy them over to this directory.
 
 ## Run the Terraform code
+```terraform apply -auto-approve```
+This should create the Vault cluster.
 
 ## Execute the following commands
 
